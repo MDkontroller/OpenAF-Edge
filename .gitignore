@@ -1,0 +1,41 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# IDE/editor configs
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset & model outputs
+data/afdb/
+data/raw/
+data/processed/
+models/
+*.tflite
+*.onnx
+*.pt
+*.h5
+*.pkl
+
+# Logs & temporary files
+*.log
+*.tmp
+*.bak
+
+# Test artifacts
+.pytest_cache/
+coverage.*
+*.cover
+.hypothesis/
