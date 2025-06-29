@@ -20,6 +20,7 @@ Thumbs.db
 
 # Dataset & model outputs
 data/afdb/
+data/mitbih/
 data/raw/
 data/processed/
 models/
