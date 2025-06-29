@@ -35,7 +35,7 @@ This repository demonstrates how clinically relevant cardiac anomaly detection c
 
 ## 📂 Folder Structure
 
-```bash
+
 📦 OpenAF-Edge
  ┣ 📁 data/               # Preprocessed ECG samples
  ┣ 📁 edge/               # Raspberry Pi-pico / ARM64 deployment scripts
@@ -46,7 +46,22 @@ This repository demonstrates how clinically relevant cardiac anomaly detection c
  ┣ 📄 .gitignore          # Git ignore rules
  ┗ 📄 README.md           # Project documentation
 
+```bash
 
 python3.10 -m venv .venv
 source .venv/bin/activate  # or .\venv\Scripts\activate on Windows
 pip install -r requirements.txt
+
+```
+
+to download the file run
+
+```bash
+python /scripts/download_afdb.py
+```
+
+first data visualization
+
+```bash
+notebooks/01_afdb_visualize.ipynb
+```
